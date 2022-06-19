@@ -1,4 +1,5 @@
 # Project exclude paths
 /focus-web-consumer/target/
+/focus-core/target/
 /.idea
 *.iml
