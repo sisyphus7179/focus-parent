@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class StudentServiceImpl {
 
-    private void saveStudent(Student student) {
+    public void saveStudent(Student student) {
         System.out.println("saveStudent start...");
         actualSaveStudent(student);
         System.out.println("saveStudent end...");

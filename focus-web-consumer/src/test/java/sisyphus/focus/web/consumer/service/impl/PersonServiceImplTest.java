@@ -25,7 +25,7 @@ public class PersonServiceImplTest {
 
     @Test
     public void saveStudent() {
-        // studentService.saveStudent(new Student("sisyphus"));
+        studentService.saveStudent(new Student("sisyphus"));
     }
 
 }

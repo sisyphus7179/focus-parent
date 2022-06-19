@@ -1,0 +1,4 @@
+# Project exclude paths
+/focus-web-consumer/target/
+/.idea
+*.iml
