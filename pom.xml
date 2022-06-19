@@ -18,6 +18,7 @@
 
     <modules>
         <module>focus-web-consumer</module>
+        <module>focus-core</module>
     </modules>
 
     <properties>
