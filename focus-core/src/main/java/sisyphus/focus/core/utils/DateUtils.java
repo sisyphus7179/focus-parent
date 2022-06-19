@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static java.time.LocalDateTime.now;
 import static java.time.LocalDateTime.ofInstant;
 import static java.time.format.DateTimeFormatter.ofPattern;
 
@@ -42,13 +41,6 @@ public class DateUtils {
 
     public static String format(Date date, String pattern) {
         return format(ofInstant(date.toInstant(), ZoneId.systemDefault()), pattern);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(format(now(), YYYY_MM_DD_NO_SEP));
-        System.out.println(format(now(), YYYY_MM_DD_SEP_DASH));
-        System.out.println(format(new Date(), HH_MM_SS_NO_SEP));
-        System.out.println(format(new Date(), HH_MM_SS_SEP_COLON));
     }
 
 }
