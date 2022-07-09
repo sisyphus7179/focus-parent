@@ -6,8 +6,8 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Employee {
-    private int id;
+    private Integer id;
     private String name;
-    private int age;
-    private double salary;
+    private Integer age;
+    private Double salary;
 }
