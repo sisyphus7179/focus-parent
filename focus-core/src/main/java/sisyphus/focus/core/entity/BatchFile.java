@@ -52,7 +52,7 @@ public class BatchFile<T> {
         Path directoryPath = Paths.get(this.path);
         if (!directoryPath.toFile().exists()) {
             try {
-                if (!directoryPath.toFile().createNewFile()) {
+                if (!directoryPath.toFile().mkdirs()) {
                     throw new IOException();
                 }
             } catch (IOException ex) {
