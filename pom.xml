@@ -19,6 +19,7 @@
     <modules>
         <module>focus-web-consumer</module>
         <module>focus-core</module>
+        <module>focus-spring</module>
     </modules>
 
     <properties>
